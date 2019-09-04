@@ -1,4 +1,4 @@
-# VIM Cheatsheets
+# VIM Cheatsheet
 * [Modes](#modes)
 * [Command Mode](#command-mode)
   * [File](#file)
