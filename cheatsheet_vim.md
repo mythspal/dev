@@ -19,8 +19,8 @@
 | Command | Effects
 |:--|:--
 | `:w` | write to file
-| `ZQ`, `:q!` | quit without saving
-| `ZZ`, `:wq` | write and quit
+| `ZQ` or `:q!` | quit without saving
+| `ZZ` or `:wq` | write and quit
 | `saveas <path>` | write file to path
 | `:e <path>` | edit file in new buffer
 
