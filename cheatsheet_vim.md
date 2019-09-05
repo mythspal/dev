@@ -5,6 +5,7 @@
   * [Navigation](#navigation)
   * [Search](#search)
   * [Edit](#edit)
+  * [Replace](#replace)
 * [References](#references)
 
 ## Modes
@@ -64,6 +65,11 @@
 | `y$` | copy from cursor to end of line
 | `<num>yy` | copy number of lines
 | `v, <selection>, y` | copy selected text
+
+### Replace
+| Key | Action
+|:--|:--
+| `<RANGE>s/<ORIGINAL>/<REPLACE>/(g)(c)` | RANGE % for all lines<br>g for all occurences on the line<br>c for confirmation for each occurence
 
 ## References
 * [https://vim.fandom.com/wiki/Vim_Tips_Wiki]
